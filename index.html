@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/1ce41f517a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+        <div class="card text-center">
+            <div class="card-header">
+              Payment Form Example
+            </div>
+            <div class="card-body">
+              <div class="alert alert-danger" style="" role="alert">
+                <p class="text-start" style="text-color: red;">Some fields are missing</p>
+              </div>
+            <form class="row g-3">
+              <div class="mb-3 col-5">
+                <p class="text-start">Card</p>
+                <input type="text" class="form-control" id="cardnumber" placeholder="XXXXXXXXXXXXXXXXX">
+              </div>
+
+              <div class="mb-3 col-4">
+                <p class="text-start">CVC #</p>
+                <input type="text" class="form-control" id="cardnumber" placeholder="0000">
+              </div>              
+              
+              <div class="mb-3 col-3">
+                <p class="text-start">Amount</p>
+                <input type="text" class="form-control" id="amount" placeholder="Amount">
+              </div>
+
+                <div class="mb-3 col-6">
+                  <p class="text-start">First Name</p>
+                  <input type="text" class="form-control" id="firstname" placeholder="">
+                </div>
+  
+                <div class="mb-3 col-6">
+                  <p class="text-start">Last Name</p>
+                  <input type="text" class="form-control" id="lastname" placeholder="">
+                </div>
+              
+                <div class="mb-3 col-6">
+                  <p class="text-start">City</p>
+                  <input type="text" class="form-control" id="city" placeholder="">
+                </div>
+  
+                <div class="mb-3 col-3">
+                  <p class="text-start">State</p>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Pick a State</option>
+                    <option value="1">Missouri</option>
+                    <option value="2">Californiaption>
+                    <option value="3">Vermont</option>
+                  </select>
+                </div>
+                
+                <div class="mb-3 col-3">
+                  <p class="text-start">Postal Code</p>
+                  <input type="text" class="form-control" id="postalcode" placeholder="">
+                </div>
+
+                <div class="col-1">
+                  <label for="checkbox" class="form-label">We accept:</label>
+                </div>
+
+                <div class="col-11">
+                  <label for="message" class="form-label">Message</label>
+                </div>
+            
+              <div class="mb-3 col-6 border bg-secondary w-25 h-25" style="margin-right: 318px;" id="checkbox">
+                <div class="form-check form-check-inline col-2">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                  <label class="form-check-label" for="inlineCheckbox1"><i class="fa-brands fa-cc-visa"></i></label>
+                </div>
+                <div class="form-check form-check-inline col-2">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                  <label class="form-check-label" for="inlineCheckbox2"><i class="fa-brands fa-cc-mastercard"></i></label>
+                </div>
+                <div class="form-check form-check-inline col-2">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                  <label class="form-check-label" for="inlineCheckbox3"><i class="fa-brands fa-cc-discover"></i></label>
+                </div>
+                <div class="form-check form-check-inline col-2">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                  <label class="form-check-label" for="inlineCheckbox3"><i class="fa-brands fa-cc-diners-club"></i></label>
+                </div>
+              </div>
+
+              <div class="mb-3 col-6">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                <p class="text-start fw-lighter">Add any notes here.</p>
+              </div>
+          
+
+            </form>
+            </div>
+          
+            <div class="card-footer text-body-secondary text-end">
+                <button type="button" class="btn btn-secondary">Cancel</button>
+                <a href="#" class="btn btn-primary">Send</a>
+            </div>
+          </div>
+          </div>
+    </body>
+</html>
